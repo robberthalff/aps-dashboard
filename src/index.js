@@ -16,6 +16,8 @@ const dashboard = new ParseDashboard(
 
 const app = express()
 
+app.enable('trust proxy');
+
 app.use('/', dashboard)
 
 const httpServer = http.createServer(app)
