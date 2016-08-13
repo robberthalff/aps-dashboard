@@ -1,0 +1,9 @@
+/node_modules/
+.DS_Store
+.c9/
+/ATTIC/
+/lib/
+*.swp
+*.txt
+*.log
+.idea
