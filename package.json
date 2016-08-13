@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "standard 'src/**/*.js' -v | snazzy",
+    "lint": "standard 'src/**/*.js' 'config.js' -v | snazzy",
     "build": "npm run lint && babel -d lib src",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./lib/index.js"
