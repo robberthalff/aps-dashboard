@@ -18,7 +18,7 @@ const app = express()
 
 app.use('/', dashboard)
 
-var httpServer = http.createServer(app)
+const httpServer = http.createServer(app)
 
 httpServer.listen(config.port, () => {
   console.log('%s (%s) running on port %s.', pkg.name, pkg.version, config.port)
